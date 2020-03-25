@@ -60,6 +60,7 @@ public class StackImplementation {
 						 break;
 				case 4 : System.out.println("Exiting!!!!!!!!!");
 						 System.exit(0);
+				default : System.out.println("Wrong choice!!!!!");
 			}
 		} while(choice<=4);
 	}
