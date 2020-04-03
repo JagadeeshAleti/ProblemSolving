@@ -3,14 +3,13 @@ class Patterns {
 
 	static void starPattern1(int rows) {
 		System.out.println("************* This is the starPattern Pattern ***************");
-		int k = 0;
 		System.out.println();
 		for(int i=0; i<rows; i++) {
-			for(int j=1; j<=rows-i; j++) 
+			for(int j=0; j<rows-i; j++) 
 				System.out.print("*");
-			for(int j=0; j<2*i; j=j+2)
-				System.out.print("  ");
-			for(int j=1; j<=rows-i; j++) 
+			for(int j=0; j<2*i; j++)
+				System.out.print(" ");
+			for(int j=0; j<rows-i; j++) 
 				System.out.print("*");	
 			System.out.println();
 		}
@@ -65,7 +64,7 @@ class Patterns {
 
 		starPattern1(rows);
 		starPattern2(rows);
-		//numberPattern(rows);
-		//binaryPattern(rows);
+		numberPattern(rows);
+		binaryPattern(rows);
 	}
 }

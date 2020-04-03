@@ -24,7 +24,7 @@ class PatternOfPrime {
 			        while(!checkPrime(number)){
             			number++;
             		}
-        			System.out.print((number++)+" ");
+        			System.out.print((number++)+"  ");
         			
       			}
       			System.out.println();
