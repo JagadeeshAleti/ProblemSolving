@@ -1,0 +1,20 @@
+red color     ===> if a new file created or existed file modified this is known as working
+command : git add .
+
+
+green color    ===> staging
+
+git status ===> to know the file status
+
+git add filename ====> wriking to staging
+
+git reset filename ====> staging to working
+
+git commit ====> commited stage
+empty
+
+
+
+1) git init ===> For new repository (Created in local it means our machine)
+2) How to push changes to remote from local  
+	stages = working => staged => commited stage ==> push
